@@ -42,7 +42,7 @@ class Toyota extends Cars{
     }
 
     public function get_specs($name, $color){
-        echo "This is $name car which is $color and its Engine number is sajibdd #$this->secret_engine";
+        echo "This is $name car which is $color and its Engine number isff #$this->secret_engine";
 }
 }
 
