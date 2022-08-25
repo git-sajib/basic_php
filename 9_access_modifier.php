@@ -37,7 +37,7 @@ class Cars{
         $this->secret_engine = $engine;
     }
 
-    private function get_engine(){
+    public function get_engine(){
         return $this->secret_engine;
     }
 
@@ -52,13 +52,13 @@ class Cars{
     // $car_object->color='Yellow'; //Ex. access through class "property".
     // $car_object->set_color('Violet'); //Ex. access through setter "method".
     // $car_object->secret_engine ='BN0940399'; //Ex. access through class "property".
-     $car_object->set_engine('BN0940399'); //Ex. access through setter "method".
+//     $car_object->set_engine('BN0940399'); //Ex. access through setter "method".
     echo '<br><br>';
     print_r ($car_object);
     print_r($car_object instanceof Cars);
     $myCarBrand = $car_object->get_name();
     $myCarColor = $car_object->get_color();
-    // $myCarEngine = $car_object->get_engine();
+     $myCarEngine = $car_object->get_engine();
     echo '<br><br>';
     echo $myCarBrand.', '.$myCarColor.', '.$myCarEngine;
     echo '<br><br>';
