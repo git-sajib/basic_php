@@ -1,4 +1,5 @@
 <?php
+/* Inheritance */
 class FlashMessage{
     const created = 'Your product has been successfully added';
     const edited = 'Your product has been successfully edited';
@@ -17,7 +18,24 @@ class FlashMessage{
     public function error(){
         echo self::error;
     }
+}
+$trigger = 'edited';
+$flash = new FlashMessage();
 
+switch ($trigger) {
+    case 'created':
+        $flash->productStored();
+        break;
 
+        case 'edited':
+            $flash->productUpdated();
+            break;
+
+            case 'deleted':
+                $flash->productDeleted();
+                break;
+
+                case 'error':
+                    $flash->error();
 }
 ?>
