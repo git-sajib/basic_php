@@ -31,6 +31,17 @@
 //     $t_counter++;
 // }
 
+/*fb bio*/
+//$life = 1;
+//$end = 60;
+//
+//while ($life <= $end) {
+//    echo "The life is going on... <br>";
+//    $life++;}
+
+
+
+
 // do while loop
 // do {
 //     print "Available ticket no is: $t_counter <br>";
@@ -42,13 +53,13 @@
 // }
 
 // foreach---> array {key : value}
-$department = ['IT','Mechanical','Electrical','Civil'];
-foreach($department as $value){
-    print"$value<br>";
-}
-
-print"<br>";
-
+//$department = ['IT','Mechanical','Electrical','Civil'];
+//foreach($department as $value){
+//    print"$value<br>";
+//}
+//
+//print"<br>";
+//
 $persons = array(
     'Sajib' => 25,
     'Galib' => 24,
