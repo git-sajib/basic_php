@@ -11,7 +11,7 @@ class Table{
         echo "<p>Table: '{$this->title}' has {$this->numRows} rows</p>";
     }
 }
-$table = new Table;
+$table = new Table();
 $table->title = "My table";
 $table->numRows = 4;
 
